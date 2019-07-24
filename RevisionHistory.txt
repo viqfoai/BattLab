@@ -1,0 +1,11 @@
+v1.00
+1:Clear the uiConditionTimeStart at the beginning of each test step
+pRecordItem->uiConditionTimerStart = 0;
+
+2£ºAdd IDI_ICON2 resource
+v1.01
+add support to very low current which is less than 1mA
+
+3£ºAdd PASSEDCHARGE_CLR in the list view
+
+4: PassedCharge Print increased to 5 digits format output	//	modified at 2019/2/13
