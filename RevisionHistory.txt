@@ -2,10 +2,16 @@ v1.00
 1:Clear the uiConditionTimeStart at the beginning of each test step
 pRecordItem->uiConditionTimerStart = 0;
 
-2£ºAdd IDI_ICON2 resource
+2Â£ÂºAdd IDI_ICON2 resource
 v1.01
 add support to very low current which is less than 1mA
 
-3£ºAdd PASSEDCHARGE_CLR in the list view
+3Â£ÂºAdd PASSEDCHARGE_CLR in the list view
 
 4: PassedCharge Print increased to 5 digits format output	//	modified at 2019/2/13
+
+5: comment a function call to disable the volt meter auto range in BatCycleController at line #361
+//viStatus = viWrite(InstHandleSet.viVoltMeter, "VOLT:RANGE:AUTO OFF\n", strlen("VOLT:RANGE:AUTO OFF\n"), &dwRetCount);
+
+6: Add a definition in BatCycleController.h at line#91
+#define VI_TMO_1000MS	1000
