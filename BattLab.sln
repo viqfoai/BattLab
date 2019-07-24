@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BattLab", "BattLab\BattLab.vcxproj", "{6A05A47F-BAC9-494C-A760-0E546640E1B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InstrDrv", "..\InstrDrv_V1.01\InstrDrv\InstrDrv\InstrDrv.vcxproj", "{1F236ACB-6117-4D90-871B-507E8CFC92A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BluePardTempChamberDriver", "..\BluePardTempChamberDriver\BluePardTempChamberDriver\BluePardTempChamberDriver\BluePardTempChamberDriver.vcxproj", "{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A05A47F-BAC9-494C-A760-0E546640E1B2}.Debug|x64.ActiveCfg = Debug|x64
+		{6A05A47F-BAC9-494C-A760-0E546640E1B2}.Debug|x64.Build.0 = Debug|x64
+		{6A05A47F-BAC9-494C-A760-0E546640E1B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A05A47F-BAC9-494C-A760-0E546640E1B2}.Debug|x86.Build.0 = Debug|Win32
+		{6A05A47F-BAC9-494C-A760-0E546640E1B2}.Release|x64.ActiveCfg = Release|x64
+		{6A05A47F-BAC9-494C-A760-0E546640E1B2}.Release|x64.Build.0 = Release|x64
+		{6A05A47F-BAC9-494C-A760-0E546640E1B2}.Release|x86.ActiveCfg = Release|Win32
+		{6A05A47F-BAC9-494C-A760-0E546640E1B2}.Release|x86.Build.0 = Release|Win32
+		{1F236ACB-6117-4D90-871B-507E8CFC92A8}.Debug|x64.ActiveCfg = Debug|x64
+		{1F236ACB-6117-4D90-871B-507E8CFC92A8}.Debug|x64.Build.0 = Debug|x64
+		{1F236ACB-6117-4D90-871B-507E8CFC92A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F236ACB-6117-4D90-871B-507E8CFC92A8}.Debug|x86.Build.0 = Debug|Win32
+		{1F236ACB-6117-4D90-871B-507E8CFC92A8}.Release|x64.ActiveCfg = Release|x64
+		{1F236ACB-6117-4D90-871B-507E8CFC92A8}.Release|x64.Build.0 = Release|x64
+		{1F236ACB-6117-4D90-871B-507E8CFC92A8}.Release|x86.ActiveCfg = Release|Win32
+		{1F236ACB-6117-4D90-871B-507E8CFC92A8}.Release|x86.Build.0 = Release|Win32
+		{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}.Debug|x64.ActiveCfg = Debug|x64
+		{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}.Debug|x64.Build.0 = Debug|x64
+		{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}.Debug|x86.ActiveCfg = Debug|Win32
+		{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}.Debug|x86.Build.0 = Debug|Win32
+		{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}.Release|x64.ActiveCfg = Release|x64
+		{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}.Release|x64.Build.0 = Release|x64
+		{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}.Release|x86.ActiveCfg = Release|Win32
+		{90A682A9-6AC3-4891-B3F8-5C1BD5CD8491}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E67A77-2987-4DA1-8F24-B211F1D3BE8A}
+	EndGlobalSection
+EndGlobal
